@@ -16,7 +16,7 @@ The tools we'd need for this lab are:
 - [Python 3.10](https://www.python.org/downloads/windows/)
 - [Git](https://git-scm.com/download/win)
 
-If you feel confident in setting these up, you can jump to [post installation](/ESE519-Lab2-intoTheVoid/README#post-installation) section
+If you feel confident in setting these up, you can jump to [post installation](/joyendra/ESE519-Lab2-intoTheVoid/blob/main/README.md#post-installation) section
 
 ## Installation Walkthrough <sub> (Done on 10th October, 2022. Stable versions might have changed if viewing much later) </sub>
 Let's install the softwares one-by-one.

@@ -3,7 +3,7 @@ Lab 2 of ESE 5190 Embedded Systems
 
 ## Lab 2A - Guide to installing softwares
 To get started with this lab you'd need your all reliable old friend - QTPy! And some additional softwares whose names might seem daunting, but in reality they're your friends. This lab helps you take a leap of faith from the safe cradles of MicroPython to the barebone C language which will be used in the coming labs.
-Let's start by refering the [`official Getiing Started documentation`](https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf) for the RaspberryPi Pico C/C++ SDK. If you are not using a Raspberry Pi to program your board (which I am pretty sure you aren't), it's neat to go through the specified section in the document rather than jumping directly to installations.
+Let's start by refering the [`official Getting Started documentation`](https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf) for the RaspberryPi Pico C/C++ SDK. If you are not using a Raspberry Pi to program your board (which I am pretty sure you aren't), it's neat to go through the specified section in the document rather than jumping directly to installations.
 
 ![image](https://user-images.githubusercontent.com/36339255/194967732-4419a6c2-a2be-47da-908f-e176b47e74b0.png)
 

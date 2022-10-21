@@ -39,4 +39,4 @@ Since each keystroke can be recorded, we can simply map it to the morse code in 
 
 ## The Road
 What lies ahead, only time will unravel,
-The course is moving too fast, wish for some friction from mortar and gravel 
+<br> The course is moving too fast, wish for some friction from mortar and gravel 

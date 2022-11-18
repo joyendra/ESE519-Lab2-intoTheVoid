@@ -8,7 +8,7 @@
 
 #include "registers.h"
 #include "adps_registers.h"
-#include "/home/ruturajn/Git-Repos/pico/pico-sdk/src/boards/include/boards/adafruit_qtpy_rp2040.h"
+#include "/pico/pico-sdk/src/boards/include/boards/adafruit_qtpy_rp2040.h"
 
 #define PIN_SDA 22
 #define PIN_SCL 23

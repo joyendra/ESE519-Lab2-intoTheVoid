@@ -7,8 +7,8 @@
 #include "hardware/clocks.h"
 
 #include "registers.h"
-#include "adps_registers.h"
-#include "/home/ruturajn/Git-Repos/pico/pico-sdk/src/boards/include/boards/adafruit_qtpy_rp2040.h"
+#include "09_lab_on_a_chip.h"
+#include "/home/pico/pico-sdk/src/boards/include/boards/adafruit_qtpy_rp2040.h"
 #include "ws2812.h"
 #include "ws2812.pio.h"
 

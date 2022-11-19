@@ -15,21 +15,21 @@ Since the file was stored on PC, the timing could be controlled using macros. A 
 ## 005
 This part moved away from the sequencer to the I2C communication between the APDS and QTPy. The waveform between SCL and SDA pins were observed on the oscilloscope.
 
-# 006
+## 006
 Moving on from an oscilloscope, we wanted to use the Pio's analyzer capabilities using logic analyzer. The logic analyzer pio example was used to read the I2C trace whenever the `BOOT` button was pressed
 
-# 007
+## 007
 The pio sequencer used components of `.pio` file which used the IN method to read values from a GPIO pin (BOOT in this case) to the ISR. From here, the register value of ISR had to move to the FIFO in order to reach the SM of the pio. Finally, the pio_get_sm method fetched the values to the C code which could now alter the neopixel's color based on previous parts.
 
-# 008
+## 008
 Since we could now access the SM, we could simply use the pio's capabilites to implement the I2C protocol and fetch the raw data value from the sensor to Pio
 
-# 009
+## 009
 On getting the sensor values, we used the multi-pio setup to 
   1. Fetch sensor data from APDS;
   2. Relay that to Neopixel
 The neopixel's color is based on the highest component between red, green and blue which shines on the sensor.
 
-# 010
+## 010
 The custom board which was submitted as a part of this lab now uses pio capabilities of the QTPy board to relay the morse code data. 
   
